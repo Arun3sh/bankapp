@@ -1,0 +1,46 @@
+.logo-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.login-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+.row-login {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.acc-container,
+.password-container {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+.login-btn-container {
+	width: 80%;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.forgot-password {
+	margin-left: auto;
+}
+
+/* Small Device */
+@media screen and (max-width: 425px) {
+	.login-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.row-login {
+		width: 100%;
+	}
+}
