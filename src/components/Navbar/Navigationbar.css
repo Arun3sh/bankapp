@@ -1,0 +1,26 @@
+.login-link,
+.logout-link {
+	color: var(--secondary);
+	margin-left: auto !important;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.hamburger-menu {
+	padding: 10px;
+}
+.signup-btn{
+    height: 40px;
+}
+
+@media screen and (max-width:320px) {
+    .hamburger-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .login-link,.logout-link{
+        margin-left: 0px !important;
+        padding: 0.5rem 0rem;
+    }
+}
