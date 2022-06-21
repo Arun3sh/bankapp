@@ -1,0 +1,28 @@
+.home-wrapper{
+    margin: 20px 0px;
+}
+.solution-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.solution{
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px 0px;
+    border-radius: 3px;
+    padding: 10px;
+}
+.solution-img{
+    width: 76px;
+    height: 60px;
+}
+.solution-des{
+    text-align: center;
+    margin: 10px 0px;
+}
